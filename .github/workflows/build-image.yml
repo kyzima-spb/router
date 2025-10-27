@@ -34,7 +34,7 @@ jobs:
         run: sudo -E mkosi build .
       -
         name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           path: ./mkosi/mkosi.output/debian~*
       -
